@@ -6,6 +6,10 @@ Most agents keep notes. Notes are a list. A mind doesn't work like a list — it
 
 Built with [Relate](https://relatedb.ai) (Neo4j) for the Relate by Neo4j Hackathon.
 
+## Demo video
+
+https://vimeo.com/1248987269
+
 ## How it uses Relate
 
 MindGraph runs Relate as an embedded graph database, right inside the Python process. There is no server to start and no signup. The agent talks to the graph in Cypher through the `relate-db` Python client (`import relate`).
