@@ -51,6 +51,14 @@ python mindgraph.py who MindGraph
 
 The first run creates `data/mindgraph.rl` if it is not there. Close the program, reopen it, and the memory is still there.
 
+## One-step demo
+
+```bash
+bash demo.sh
+```
+
+Runs every step on its own with pauses (about 1.5 minutes): the whole graph, recall, who, teaching it new facts, and recall again from a fresh process.
+
 ## Commands
 
 ```bash
